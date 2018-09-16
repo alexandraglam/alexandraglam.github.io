@@ -424,23 +424,30 @@ Blog Posts Page
 }
 
 /* ==========================================================================
-Media Queries Test
+Case Studies - Global 
 ========================================================================== */
-@media (min-width: 992px) { 
-/*	body { background-color: teal; }*/
+.cs-header-container h1,
+.overview-container h2,
+.overview-col h3,
+.chal-col h3,
+.brief-container h2,
+.research-container h2 { text-transform: capitalize; }
+
+.cs-header-container h1,
+.overview-container h2 {
+	padding: 25px;
+	text-align: center;
 }
 
-@media (min-width: 768px) and (max-width: 991.98px) { 
-/*	body { background-color: pink; }*/
-}
+.overview-container h2 { font-size: 2rem!important; }
 
-@media (max-width: 767.98px) {
-/*	body { background-color: orange; }*/
-}
+.overview-col h3,
+.overview-col p { text-align: center; }
 
-@media (min-width: 1366.98px) {
-/*	body { background-color: red; }*/
-}
+
+/* ==========================================================================
+Techrangers Case Study
+========================================================================== */
 
 
 /* ==========================================================================
@@ -559,7 +566,6 @@ Media Queries
 		.about-col h3.about-hide,
 		.resume-hide { display: none; }
 
-
 		.resume {
 			margin: 30px 0;
 			text-align: center;
@@ -574,6 +580,7 @@ Media Queries
 	}
 
 	@media (min-width: 768px) and (max-width: 991.98px) {
+
 		.about-container { padding: 75px 0; }
 
 		.about-col h3 { text-align: center; }
@@ -592,13 +599,25 @@ Media Queries
 
 		.resume button { background-color: #FAA092; }
 
-		.resume a { font-size: 1em!important; }
+		.resume a { 
+			color: #fff;
+			font-size: 1em!important;
+			letter-spacing: 1px;
+		}
 	}
 
 	@media (min-width: 992px) {
 		.about-hide { display: none; }
 
 		.resume { display: none; }
+	}
+
+	@media (max-width: 575.98px) {
+		.resume a { 
+			color: #fff;
+			font-size: 1em!important;
+			letter-spacing: 1px;
+		}
 	}
 
 /* Projects --------------------------------------- */
