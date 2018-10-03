@@ -441,6 +441,9 @@ Blog Posts Page
 /* ==========================================================================
 Case Studies - Global 
 ========================================================================== */
+#cs-main,
+.nav-main { background-color: #f8f8f8; }
+
 #overview { 
 	/*background-color: #f8f8f8;*/
 	padding-bottom: 25px;
@@ -488,7 +491,8 @@ ol, li {
     padding-bottom: 10px;
 }
 
-.design-col img:nth-child(1) { padding-bottom: 25px; }
+.design-col img:nth-child(1),
+.design-col img:nth-child(2) { padding-bottom: 25px; }
 
 @media (min-width: 992px) {
 	/*body { background-color: pink!important; }*/
