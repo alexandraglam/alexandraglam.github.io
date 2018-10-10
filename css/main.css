@@ -45,7 +45,6 @@ p.gray {
 
 hr { 
 	border-top: 1px solid #000;
-	opacity: 0.2;
 }
 
 	hr.white { 
@@ -289,19 +288,18 @@ h2.work { text-transform: uppercase; }
 	padding-top: 25px; 
 }
 
-.contact-container p.next {
+/*.contact-container p.next {
 	color:  #FAA092;
 	font-weight: 700;
 	letter-spacing: 1px;
 	text-transform: uppercase;
 	font-size: 12px;
-}
+}*/
 
 .contact-container p span.white { color: #fff; }
 
 .contact-container .btn-outline-light { 
 	margin-top: 25px;
-	border: 1px solid #FAA092;
     padding: 15px;
 }
 
@@ -439,14 +437,20 @@ Blog Posts Page
 }
 
 /* ==========================================================================
-Case Studies - Global 
+Techrangers Case Study
 ========================================================================== */
+#cs-main,
+.nav-main.other { background-color: #f8f8f8; }
+
 #overview { 
 	/*background-color: #f8f8f8;*/
 	padding-bottom: 25px;
 }
 
-h2.capitalize { padding: 25px; }
+h2.capitalize {
+	font-size: 3rem!important; 
+	padding: 50px 0 15px 0;
+}
 
 h2.capitalize,
 h3.capitalize { 
@@ -459,26 +463,54 @@ h4.capitalize {
 	text-transform: capitalize;
 }
 
+hr.gold {
+	margin: auto;
+    width: 70px;
+    position: relative;
+    border-top: 3px solid #ffc904;
+    padding-top: 15px;
+    padding-bottom: 25px;
+}
+
+figcaption {
+	color: #777;
+	font-size: 12px;
+	letter-spacing: 2px;
+	text-align: center;
+	text-transform: uppercase;
+	padding: 15px 0;	
+}
+
+h4.eval { padding-top: 20px; }
+
 .cs-header-container h1 {
 	padding: 50px;
 	text-align: center;
 }
 
 .overview-container h2 { 
-	font-size: 2rem!important;
-	padding: 50px 0 0 0;
+	padding: 50px 0 15px 0;
 	text-align: center;
 }
 
 .overview-col p { text-align: center!important; }
 
-.overview-col p:nth-child(2) { margin-bottom: 50px; }
+.overview-col p.overview-p,
+.overview-col p:nth-child(2) { padding-bottom: 45px; }
 
-.research-col img { padding-bottom: 25px; }
+.research-col.research-pad { padding: 0 0 25px 0; }
 
-.research-container:nth-child(1) { padding-bottom: 25px; }
+.research-col img { padding-bottom: 15px; }
 
-ol.case-study { padding-left: 15px; }
+.research-container:nth-child(1),
+
+.research-col.users { padding-bottom: 15px; }
+
+.research-col p.andrew-persona,
+.research-col p.ally-persona { 
+	font-size: 25px;
+	margin-bottom: 0;
+}
 
 ol, li {
 	font-size: 16px;
@@ -488,8 +520,6 @@ ol, li {
     padding-bottom: 10px;
 }
 
-.design-col img:nth-child(1) { padding-bottom: 25px; }
-
 @media (min-width: 992px) {
 	/*body { background-color: pink!important; }*/
 
@@ -498,12 +528,48 @@ ol, li {
 	.col-lg-12.design-col img { width: 90%; }
 }
 
-ul.case-study > li { text-transform: capitalize; }
+ul.reflection-ul.italicized { font-style: italic;  }
 
-/* ==========================================================================
-Techrangers Case Study
-========================================================================== */
 
+ol.research-ol li,
+ol.evaluation-ol li { 
+	color: #ffc904;
+	font-weight: 700;
+	font-size: 20px;
+}
+
+ol.research-ol li span,
+ol.evaluation-ol li span { 
+	color: #000;
+	font-weight: 400;
+	font-size: 16px;
+}
+
+figcaption a {
+	color: #000!important;
+	font-weight: 700!important;
+	font-size: 18px;
+}
+
+ul.reflection-ul li { 
+	color: #ffc904;
+	font-weight: 700;
+}
+
+ul.reflection-ul span {
+	color: #000;
+	font-weight: 400;
+}
+
+.col-lg-4.design-col.lo-fi,
+.col-lg-8.design-col.lo-fi { padding-top: 15px; }
+
+#final-design { padding: 25px 0; }
+
+#reflection {
+	background-color: #f8f8f8;
+	padding: 25px 0;
+}
 
 /* ==========================================================================
 Media Queries

@@ -1,0 +1,96 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 3602 1489">
+  <defs>
+    <style>
+      .cls-1 {
+        clip-path: url(#clip-Research_Process_Graph);
+      }
+
+      .cls-2 {
+        fill: #f8f8f8;
+      }
+
+      .cls-3 {
+        fill: #e5e5e5;
+      }
+
+      .cls-4 {
+        fill: #ffc904;
+        font-size: 350px;
+      }
+
+      .cls-4, .cls-5 {
+        font-family: Lato-Bold, Lato;
+        font-weight: 700;
+      }
+
+      .cls-4, .cls-5, .cls-6 {
+        letter-spacing: 0.05em;
+      }
+
+      .cls-5 {
+        font-size: 71px;
+      }
+
+      .cls-6 {
+        font-size: 53px;
+        font-family: Lato-Regular, Lato;
+      }
+
+      .cls-7 {
+        fill: #fff;
+      }
+
+      .cls-8 {
+        filter: url(#Path_2);
+      }
+    </style>
+    <filter id="Path_2" x="-9" y="-3" width="3620.271" height="1507" filterUnits="userSpaceOnUse">
+      <feOffset dy="6" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <clipPath id="clip-Research_Process_Graph">
+      <rect width="3602" height="1489"/>
+    </clipPath>
+  </defs>
+  <g id="Research_Process_Graph" data-name="Research Process Graph" class="cls-1">
+    <rect class="cls-7" width="3602" height="1489"/>
+    <g class="cls-8" transform="matrix(1, 0, 0, 1, 0, 0)">
+      <path id="Path_2-2" data-name="Path 2" class="cls-2" d="M0,0H3602.271V1489H0Z" transform="translate(0 0)"/>
+    </g>
+    <path id="Path_1" data-name="Path 1" class="cls-2" d="M0,0H1200.271V1489H0Z" transform="translate(0 0)"/>
+    <path id="Path_1-2" data-name="Path 1" class="cls-3" d="M0,0H1200.271V1489H0Z" transform="translate(1201 0)"/>
+    <path id="Path_1-3" data-name="Path 1" class="cls-2" d="M0,0H1200.271V1489H0Z" transform="translate(2402 0)"/>
+    <g id="Group_2" data-name="Group 2" transform="translate(358 21)">
+      <text id="_1" data-name="1" class="cls-4" transform="translate(238.911 435)"><tspan x="-101.5" y="0">1</tspan></text>
+      <text id="Inspiration" class="cls-5" transform="translate(247.4 596.864)"><tspan x="-190.582" y="0">Inspiration</tspan></text>
+      <text id="Redesign_Concepts" data-name="Redesign Concepts" class="cls-6" transform="translate(242 706.883)"><tspan x="-242.422" y="0">Redesign Concepts</tspan></text>
+      <text id="Project_Goals" data-name="Project Goals" class="cls-6" transform="translate(242.619 813.416)"><tspan x="-171.402" y="0">Project Goals</tspan></text>
+      <text id="User_Interviews_I" data-name="User Interviews I" class="cls-6" transform="translate(242.171 919.95)"><tspan x="-218.333" y="0">User Interviews I</tspan></text>
+      <text id="User_Interviews_II" data-name="User Interviews II" class="cls-6" transform="translate(242.324 1026.483)"><tspan x="-227.794" y="0">User Interviews II</tspan></text>
+      <text id="Site_Architecture" data-name="Site Architecture" class="cls-6" transform="translate(242.276 1133.016)"><tspan x="-218.837" y="0">Site Architecture</tspan></text>
+    </g>
+    <g id="Group_3" data-name="Group 3" transform="translate(1530 21)">
+      <text id="_2" data-name="2" class="cls-4" transform="translate(256.664 435)"><tspan x="-101.5" y="0">2</tspan></text>
+      <text id="Lo-fi_Prototypes" data-name="Lo-fi Prototypes" class="cls-6" transform="translate(270.562 706.883)"><tspan x="-207.469" y="0">Lo-fi Prototypes</tspan></text>
+      <text id="Design_Evaluations_I" data-name="Design Evaluations I" class="cls-6" transform="translate(270.638 813.416)"><tspan x="-258.932" y="0">Design Evaluations I</tspan></text>
+      <text id="Design_Modifications" data-name="Design Modifications" class="cls-6" transform="translate(271 919.95)"><tspan x="-270.565" y="0">Design Modifications</tspan></text>
+      <text id="User_Journey" data-name="User Journey" class="cls-6" transform="translate(271.952 1026.483)"><tspan x="-168.858" y="0">User Journey</tspan></text>
+      <text id="Hi-fi_Prototypes" data-name="Hi-fi Prototypes" class="cls-6" transform="translate(270.457 1133.016)"><tspan x="-206.409" y="0">Hi-fi Prototypes</tspan></text>
+      <text id="Design_Evaluations_II" data-name="Design Evaluations II" class="cls-6" transform="translate(269.79 1239.549)"><tspan x="-268.392" y="0">Design Evaluations II</tspan></text>
+      <text id="Final_Design" data-name="Final Design" class="cls-6" transform="translate(271.59 1346.083)"><tspan x="-156.827" y="0">Final Design</tspan></text>
+      <text id="Ideation" class="cls-5" transform="translate(273.019 596.864)"><tspan x="-145.089" y="0">Ideation</tspan></text>
+    </g>
+    <g id="Group_4" data-name="Group 4" transform="translate(2724 21)">
+      <text id="_3" data-name="3" class="cls-4" transform="translate(254.813 435)"><tspan x="-101.5" y="0">3</tspan></text>
+      <text id="Content_Creation" data-name="Content Creation" class="cls-6" transform="translate(276.714 706.883)"><tspan x="-223.289" y="0">Content Creation</tspan></text>
+      <text id="Site_Development" data-name="Site Development" class="cls-6" transform="translate(277.133 813.416)"><tspan x="-226.602" y="0">Site Development</tspan></text>
+      <text id="Usability_Testing" data-name="Usability Testing" class="cls-6" transform="translate(277.352 1026.483)"><tspan x="-212.398" y="0">Usability Testing</tspan></text>
+      <text id="Site_Launch_" data-name="Site Launch " class="cls-6" transform="translate(278.333 1133.016)"><tspan x="-153.038" y="0">Site Launch </tspan></text>
+      <text id="Beta_Launch" data-name="Beta Launch" class="cls-6" transform="translate(277.752 919.95)"><tspan x="-156.35" y="0">Beta Launch</tspan></text>
+      <text id="Implementation" class="cls-5" transform="translate(278 596.864)"><tspan x="-277.876" y="0">Implementation</tspan></text>
+    </g>
+  </g>
+</svg>
