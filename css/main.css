@@ -437,7 +437,7 @@ Blog Posts Page
 }
 
 /* ==========================================================================
-Case Studies - Global 
+Techrangers Case Study
 ========================================================================== */
 #cs-main,
 .nav-main.other { background-color: #f8f8f8; }
@@ -495,11 +495,22 @@ h4.eval { padding-top: 20px; }
 
 .overview-col p { text-align: center!important; }
 
-.overview-col p:nth-child(2) { margin-bottom: 50px; }
+.overview-col p.overview-p,
+.overview-col p:nth-child(2) { padding-bottom: 45px; }
 
-.research-col img { padding-bottom: 25px; }
+.research-col.research-pad { padding: 0 0 25px 0; }
 
-.research-container:nth-child(1) { padding-bottom: 25px; }
+.research-col img { padding-bottom: 15px; }
+
+.research-container:nth-child(1),
+
+.research-col.users { padding-bottom: 15px; }
+
+.research-col p.andrew-persona,
+.research-col p.ally-persona { 
+	font-size: 25px;
+	margin-bottom: 0;
+}
 
 ol, li {
 	font-size: 16px;
@@ -517,7 +528,8 @@ ol, li {
 	.col-lg-12.design-col img { width: 90%; }
 }
 
-ul.reflection-ul > li { text-transform: capitalize; }
+ul.reflection-ul.italicized { font-style: italic;  }
+
 
 ol.research-ol li,
 ol.evaluation-ol li { 
@@ -558,11 +570,6 @@ ul.reflection-ul span {
 	background-color: #f8f8f8;
 	padding: 25px 0;
 }
-
-/* ==========================================================================
-Techrangers Case Study
-========================================================================== */
-
 
 /* ==========================================================================
 Media Queries
