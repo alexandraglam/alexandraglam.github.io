@@ -58,8 +58,6 @@ span.bold { font-weight: 700; }
 /* ==========================================================================
 Navigation 
 ========================================================================== */
-#logoMain { float: left; }
-
 nav.nav-main,
 .masthead { padding: 25px; }
 
@@ -860,6 +858,8 @@ Media Queries
 
 		.col-lg-4.design-col.lo-fidelity h3,
 		.col-lg-8.design-col.lo-fidelity h4 { margin-top: 10px; }
+
+		.final-design-container { margin-bottom: 25px; }
 	}
 
 /* Contact/Footer --------------------------------------- */
