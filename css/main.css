@@ -442,15 +442,7 @@ Techrangers Case Study
 #cs-main,
 .nav-main.other { background-color: #f8f8f8; }
 
-#overview { 
-	/*background-color: #f8f8f8;*/
-	padding-bottom: 25px;
-}
-
-h2.capitalize {
-	font-size: 3rem!important; 
-	padding: 50px 0 15px 0;
-}
+h2.capitalize { font-size: 3rem!important; }
 
 h2.capitalize,
 h3.capitalize { 
@@ -483,10 +475,7 @@ figcaption {
 
 h4.eval { padding-top: 20px; }
 
-.cs-header-container h1 {
-	padding: 50px;
-	text-align: center;
-}
+.cs-header-container h1 { text-align: center; }
 
 .overview-container h2 { 
 	padding: 50px 0 15px 0;
@@ -494,9 +483,6 @@ h4.eval { padding-top: 20px; }
 }
 
 .overview-col p { text-align: center!important; }
-
-.overview-col p.overview-p,
-.overview-col p:nth-child(2) { padding-bottom: 45px; }
 
 .research-col.research-pad { padding: 0 0 25px 0; }
 
@@ -520,14 +506,6 @@ ol, li {
     padding-bottom: 10px;
 }
 
-@media (min-width: 992px) {
-	/*body { background-color: pink!important; }*/
-
-	.col-lg-12.design-col { text-align: right; }
-
-	.col-lg-12.design-col img { width: 90%; }
-}
-
 ul.reflection-ul.italicized { font-style: italic;  }
 
 
@@ -536,6 +514,7 @@ ol.evaluation-ol li {
 	color: #ffc904;
 	font-weight: 700;
 	font-size: 20px;
+	line-height: 25px;
 }
 
 ol.research-ol li span,
@@ -543,6 +522,7 @@ ol.evaluation-ol li span {
 	color: #000;
 	font-weight: 400;
 	font-size: 16px;
+	line-height: 25px;
 }
 
 figcaption a {
@@ -630,22 +610,29 @@ Media Queries
 
 	@media (min-width: 992px) { 
 		#logoMain {
-			height: 45%;
-			width: 45%;
+			height: 100%;
+			width: 100%;
 		}
 	}
 
 	@media (min-width: 768px) and (max-width: 991.98px) { 
 		#logoMain {
-			height: 35%;
-			width: 35%;
+			height: 100%;
+			width: 100%;
 		}
 	}
 
 	@media (max-width: 767.98px) {
 		#logoMain {
-			height: 35%;
-			width: 35%;
+			height: 100%;
+			width: 100%;
+		}
+	}
+
+	@media (max-width: 575.98px) {
+		#logoMain {
+			height: 60%;
+			width: 60%;
 		}
 	}
 
@@ -829,7 +816,57 @@ Media Queries
 		.blog-col h3 { margin-top: 5px!important; }
 	}
 
+/* Techrangers Case Study --------------------------------------- */
+	
+	@media (max-width: 575.98px) {
+		h4.capitalize { 
+			text-align: center;
+			font-size: 18px;
+		}
+
+		.overview-col,
+		.chal-row { margin-bottom: 25px; }
+
+		.tr-robot { padding-bottom: 25px; }
+	}
+
+	@media (min-width: 768px) and (max-width: 991.98px) {
+		#overview p,
+		#research p,
+		#design p,
+		#final-design p,
+		#reflection p { text-align: left; }
+
+		#contact p { text-align: center; }
+
+		.tr-robot { padding-bottom: 25px; }
+
+		.col-lg-8.design-col.lo-fidelity h4 { margin-top: 10px; }
+	}
+
+	@media (min-width: 992px) {
+		#overview { padding-bottom: 25px; }
+
+		.cs-header-container h1 { padding: 50px; }
+
+		.overview-col p.overview-p,
+		.overview-col p:nth-child(2) { padding-bottom: 45px; }
+
+		h2.capitalize { padding: 40px 0 15px 0; }
+
+		.col-lg-12.design-col { text-align: right; }
+
+		.col-lg-12.design-col img { width: 90%; }
+
+		.col-lg-4.design-col.lo-fidelity h3,
+		.col-lg-8.design-col.lo-fidelity h4 { margin-top: 10px; }
+	}
+
 /* Contact/Footer --------------------------------------- */
+
+	@media (max-width: 575.98px) {
+		.remove { display: none!important; }
+	}
 
 	@media (max-width: 767.98px) {
 		#contact { padding-top: 30px; }
@@ -839,6 +876,8 @@ Media Queries
 		.bottom-footer ul { padding-left: 0; }
 
 		.back-to-top-col { padding-right: 0; }
+
+		.remove { display: none!important; }
 	}
 
 	@media (min-width: 768px) and (max-width: 991.98px) {
@@ -852,6 +891,8 @@ Media Queries
 			padding-right: 45px;
 			padding-left: 45px;
 		}
+
+		.remove { display: none!important; }
 	}
 
 	@media (min-width: 992px) { 
@@ -867,13 +908,17 @@ Media Queries
 Media Queries Test
 ========================================================================== */
 	@media (max-width: 575.98px) {
-		body { background-color: yellow!important; }
+		/*body { background-color: yellow!important; }*/
 	}
 
 	@media (min-width: 768px) and (max-width: 991.98px) {
-		body { background-color: orange!important; }
+		/*body { background-color: orange!important; }*/
 	}
 
-/*	@media (min-width: 992px) {
-		body { background-color: pink!important; }
-	}*/
+	@media (min-width: 992px) {
+		/*body { background-color: pink!important; }*/
+	}
+
+	@media (max-width: 767.98px) {
+		/*body { background-color: blue!important; }*/
+	}
