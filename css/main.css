@@ -58,10 +58,20 @@ span.bold { font-weight: 700; }
 /* ==========================================================================
 Navigation 
 ========================================================================== */
-nav.nav-main,
-.masthead { padding: 25px; }
+nav.bg-light {
+    background-color: #fff!important;
+}
 
-#navMain ul > li > a {
+a.navbar-brand {
+	font-family: 'Poppins', sans-serif!important;
+	font-weight: 700;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+}
+
+a.navbar-brand span { color: #FAA092; }
+
+a.nav-link {
 	color: #000;
 	text-transform: lowercase;
 	font-weight: 700;
@@ -70,12 +80,12 @@ nav.nav-main,
 	letter-spacing: 1px;
 }
 
-#navMain ul > li > a:hover {
+ul.navbar-nav > li.nav-item > a.nav-link { color: #000;!important }
+
+ul.navbar-nav > li.nav-item > a.nav-link:hover {
 	color: #FAA092;
 	transition: all .4s ease-in-out;
 }
-
-.nav-link { letter-spacing: 2px; }
 
 /* ==========================================================================
 Masthead
@@ -437,9 +447,6 @@ Blog Posts Page
 /* ==========================================================================
 Techrangers Case Study
 ========================================================================== */
-#cs-main,
-.nav-main.other { background-color: #f8f8f8; }
-
 h2.capitalize { font-size: 3rem!important; }
 
 h2.capitalize,
@@ -542,7 +549,7 @@ ul.reflection-ul span {
 .col-lg-4.design-col.lo-fi,
 .col-lg-8.design-col.lo-fi { padding-top: 15px; }
 
-#final-design { padding: 25px 0; }
+#final-design-container { padding: 25px 0; }
 
 #reflection {
 	background-color: #f8f8f8;
@@ -607,31 +614,25 @@ Media Queries
 /* Navigation --------------------------------------- */
 
 	@media (min-width: 992px) { 
-		#logoMain {
-			height: 100%;
-			width: 100%;
+		.navbar { padding: 1rem 0!important; }
+
+		.container.masthead { 
+			margin-top: 25px;
+			margin-bottom: 30px;
 		}
 	}
 
 	@media (min-width: 768px) and (max-width: 991.98px) { 
-		#logoMain {
-			height: 100%;
-			width: 100%;
-		}
+
 	}
 
 	@media (max-width: 767.98px) {
-		#logoMain {
-			height: 100%;
-			width: 100%;
-		}
+
 	}
 
 	@media (max-width: 575.98px) {
-		#logoMain {
-			height: 60%;
-			width: 60%;
-		}
+		.navbar { padding: 1rem!important; }
+		ul.navbar-nav > li.nav-item > a.nav-link { font-size: .9rem; }
 	}
 
 /* Masthead --------------------------------------- */
@@ -850,7 +851,7 @@ Media Queries
 		.overview-col p.overview-p,
 		.overview-col p:nth-child(2) { padding-bottom: 45px; }
 
-		h2.capitalize { padding: 40px 0 15px 0; }
+		h2.capitalize { padding: 50px 0 15px 0; }
 
 		.col-lg-12.design-col { text-align: right; }
 
@@ -859,7 +860,7 @@ Media Queries
 		.col-lg-4.design-col.lo-fidelity h3,
 		.col-lg-8.design-col.lo-fidelity h4 { margin-top: 10px; }
 
-		.final-design-container { margin-bottom: 25px; }
+		.final-design-container { margin-bottom: 50px; }
 	}
 
 /* Contact/Footer --------------------------------------- */
