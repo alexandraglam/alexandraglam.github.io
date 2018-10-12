@@ -447,9 +447,6 @@ Blog Posts Page
 /* ==========================================================================
 Techrangers Case Study
 ========================================================================== */
-/*#cs-main,
-.nav-main.other { background-color: #f8f8f8; }*/
-
 h2.capitalize { font-size: 3rem!important; }
 
 h2.capitalize,
@@ -552,7 +549,7 @@ ul.reflection-ul span {
 .col-lg-4.design-col.lo-fi,
 .col-lg-8.design-col.lo-fi { padding-top: 15px; }
 
-#final-design { padding: 25px 0; }
+#final-design-container { padding: 25px 0; }
 
 #reflection {
 	background-color: #f8f8f8;
