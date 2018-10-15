@@ -375,76 +375,6 @@ h5 {
 }
 
 /* ==========================================================================
-Blog Posts Page
-========================================================================== */
-.blog-posts-row { margin: 50px 0; }
-
-.blog-posts-col { 
-	text-align: center;
-	padding-right: 10px;
-	padding-left: 0;
-}
-
-.blog-posts-col h5 { 
-	color: #FAA092!important;
-	font-weight: 700!important;
-}
-
-.blog-posts-col h3 { 
-	text-align: center;
-	text-transform: capitalize;
-	font-size: 20px;
-}
-
-.blog-posts-col h3,
-.blog-posts-col .btn-container { margin-top: 20px; }
-
-.blog-posts-col h3 a { color: #000; }
-
-.blog-posts-col h3 a:hover { color: #FAA092; }
-
-.overlay-container {
-  position: relative;
-  width: 100%;
-}
-
-.image {
-  display: block;
-  width: 100%;
-  height: auto;
-}
-
-.overlay {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  height: 100%;
-  width: 100%;
-  opacity: 0;
-  transition: .5s ease;
-  background-color: #FAA092;
-}
-
-.overlay-container:hover .overlay {
-  opacity: 1;
-}
-
-.text {
-  color: #fff;
-  font-size: 16px;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  width: 80%;
-  -webkit-transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
-  text-align: center;
-}
-
-/* ==========================================================================
 Techrangers Case Study
 ========================================================================== */
 h2.capitalize { font-size: 3rem!important; }
@@ -478,9 +408,14 @@ figcaption {
 	padding: 15px 0;	
 }
 
+.cs-header-container h1 { text-align: center;!important; }
+
 h4.eval { padding-top: 20px; }
 
-.cs-header-container h1 { text-align: center; }
+.cs-header-container h2 { 
+	color: #cccccc;
+	font-weight: 400!important;
+}
 
 .overview-container h2 { 
 	padding: 50px 0 15px 0;
@@ -556,6 +491,28 @@ ul.reflection-ul span {
 	padding: 25px 0;
 }
 
+a.hover { 
+  line-height: 1em;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 3em;
+  font-weight: 700;
+
+  background-size: 200% auto;
+  -webkit-background-size: 200% auto;
+  -moz-background-size: 200% auto;
+  
+  background-position: -0% 0;
+  background-image: linear-gradient(to right, rgba(255, 201, 4,0) 50%, #ffc904 50%);
+  transition: background-position 0.5s ease-out;
+  -webkit-transition: background-position 0.5s ease-out;
+}
+
+a.hover:hover {
+  background-position: -100% 0;
+  text-decoration: none;
+}
+
 /* ==========================================================================
 Media Queries
 ========================================================================== */
@@ -623,11 +580,11 @@ Media Queries
 	}
 
 	@media (min-width: 768px) and (max-width: 991.98px) { 
-
+		.navbar { padding: 1rem!important; }
 	}
 
 	@media (max-width: 767.98px) {
-
+		.navbar { padding: 1rem!important; }
 	}
 
 	@media (max-width: 575.98px) {
@@ -818,6 +775,13 @@ Media Queries
 /* Techrangers Case Study --------------------------------------- */
 	
 	@media (max-width: 575.98px) {
+		#cs-main { margin-top: 25px; }
+
+		.cs-header-container h1 { 
+			padding-bottom: 15px;
+			margin-bottom: 8px;
+		}
+
 		h4.capitalize { 
 			text-align: center;
 			font-size: 18px;
@@ -830,11 +794,25 @@ Media Queries
 	}
 
 	@media (min-width: 768px) and (max-width: 991.98px) {
+		#cs-main { margin-top: 50px; }
+
+		.cs-header-container h1 { 
+			padding-bottom: 15px;
+			margin-bottom: 8px;
+		}
+
+		.research-container h2,
+		.design-container h2,
+		.final-design-container h2,
+		#reflection { padding: 50px 0 15px 0; }
+
 		#overview p,
 		#research p,
 		#design p,
 		#final-design p,
 		#reflection p { text-align: left; }
+
+		#final-design { margin-bottom: 25px; }
 
 		#contact p { text-align: center; }
 
@@ -846,7 +824,12 @@ Media Queries
 	@media (min-width: 992px) {
 		#overview { padding-bottom: 25px; }
 
-		.cs-header-container h1 { padding: 50px; }
+		#cs-main { margin-top: 70px; }
+
+		.cs-header-container h1 { 
+			padding-bottom: 15px;
+			margin-bottom: 8px;
+		}
 
 		.overview-col p.overview-p,
 		.overview-col p:nth-child(2) { padding-bottom: 45px; }
