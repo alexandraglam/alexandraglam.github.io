@@ -239,9 +239,6 @@ Projects
 }
 
 
-
-
-
 /* ==========================================================================
 Skillset 
 ========================================================================== */
@@ -334,6 +331,11 @@ h5 {
 	letter-spacing: 2px;
 	display: inline-block;
 	padding: 5px;
+}
+
+h5.copyright:visited { 
+	color: #fff;
+	text-decoration: underline;
 }
 
 .bottom-footer { text-align: center; }
@@ -661,6 +663,7 @@ Media Queries
 			color: #fff;
 			background-color: #FAA092;
 			font-size: 1em!important;
+			text-transform: capitalize;
 			letter-spacing: 1px;
 		}
 	}
