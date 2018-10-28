@@ -199,6 +199,7 @@ Projects
 
 .projects-col-text a:hover { text-decoration: none; }
 
+/* Techrangers Case Study */
 .projects-col-text a h2 { 
 	color: #000;
 	text-decoration: none;
@@ -238,6 +239,45 @@ Projects
 	border: transparent;
 }
 
+/* Listie Case Study */
+.projects-col-text.listie a h2 { 
+	color: #000;
+	text-decoration: none;
+	font-weight: 700;
+
+	background-size: 200% auto;
+	-webkit-background-size: 200% auto;
+	-moz-background-size: 200% auto;
+
+	background-position: -0% 0;
+	background-image: -webkit-gradient(linear, left top, right top, color-stop(50%, rgba(255, 201, 4,0)), color-stop(50%, #FF96BC));
+	background-image: -webkit-linear-gradient(left, rgba(255, 201, 4,0) 50%, #FF96BC 50%);
+	background-image: -o-linear-gradient(left, rgba(255, 201, 4,0) 50%, #FF96BC 50%);
+	background-image: linear-gradient(to right, rgba(255, 201, 4,0) 50%, #FF96BC 50%);
+	-o-transition: background-position 0.5s ease-out;
+	transition: background-position 0.5s ease-out;
+	-webkit-transition: background-position 0.5s ease-out;
+}
+
+.projects-col-text.listie a h2.hover:hover { 
+/*	color: #fff;*/
+	background-position: -100% 0;
+	text-decoration: none;
+}
+
+.projects-col-text.listie > .btn-container a.btn.btn-dark.small {
+	border-radius: 1px!important;
+	letter-spacing: 2px;
+	text-transform: capitalize;
+}
+
+.projects-col-text.listie > .btn-container a.btn.btn-dark.small:hover { 
+	background-color: #FF96BC; 
+	-webkit-transition: all .4s ease-in-out; 
+	-o-transition: all .4s ease-in-out; 
+	transition: all .4s ease-in-out;
+	border: transparent;
+}
 
 /* ==========================================================================
 Skillset 
