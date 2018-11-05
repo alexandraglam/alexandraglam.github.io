@@ -74,11 +74,13 @@ a.nav-link {
 	letter-spacing: 1px;
 }
 
-ul.navbar-nav > li.nav-item > a.nav-link { color: #000!important; }
+.navbar-light .navbar-nav .nav-link {
+    color: #000!important;
+}
 
-ul.navbar-nav > li.nav-item > a.nav-link:hover {
-	color: #FAA092;
-	-webkit-transition: all .4s ease-in-out;
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #FAA092!important;
+    -webkit-transition: all .4s ease-in-out;
 	-o-transition: all .4s ease-in-out;
 	transition: all .4s ease-in-out;
 }
@@ -170,7 +172,7 @@ About
 Projects 
 ========================================================================== */
 #projects { 
-	background-color: #fafafa; 
+	background-color: #fff; 
 	text-align: center; 
 }
 
@@ -284,7 +286,7 @@ Skillset
 ========================================================================== */
 #skillset { 
 	padding: 75px 0;
-	background-color: #fff;
+	background-color:#fafafa;
 }
 
 .skills-container h3 { padding-bottom: 15px; }
@@ -311,6 +313,45 @@ Skillset
 }
 
 /* ==========================================================================
+Blog Homepage
+========================================================================== */
+#blog { 
+    padding: 75px 0;
+    background-color: #fff;
+}
+
+.blog-row { padding-top: 50px; }
+
+.blog-col { 
+    text-align: center;
+    padding-right: 0!important;
+    padding-left: 0;
+}
+
+.blog-col h5 { 
+    color: #FAA092!important;
+    font-weight: 700!important;
+    margin-bottom: 0;
+    font-size: .8rem;
+}
+
+.blog-col h3 { 
+    text-transform: capitalize;
+    font-size: 20px;
+    margin-bottom: 1rem;
+}
+
+.blog-col h3,
+.blog-col .btn-container { margin-top: 5px; }
+
+.blog-col h3 a { color: #000; }
+
+.blog-col h3 a:hover { 
+    color: #979797;
+    text-decoration: none;
+}
+
+/* ==========================================================================
 Contact/Footer
 ========================================================================== */
 #contact { 
@@ -334,9 +375,15 @@ h2.work { text-transform: uppercase; }
     padding: 15px;
 }
 
-.contact-container .btn-outline-light a { 
+.contact-container .btn.btn-outline-light a { 
     text-transform: uppercase;
     letter-spacing: 1px;
+    font-weight: 700;
+}
+
+.contact-container .btn.btn-outline-light:hover { 
+	color: #fff;
+	font-weight: 700;
 }
 
 h5.copyright { font-size: 10px!important; }
