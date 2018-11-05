@@ -363,6 +363,13 @@ h5.copyright { font-size: 10px!important; }
 		text-decoration: none;
 	}
 
+.bottom-footer .policy { 
+	color: #fff;
+	font-size: 10px!important;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+}
+
 h5 {
 	color: #fff!important;
 	font-size: .8em!important;
