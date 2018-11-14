@@ -252,10 +252,10 @@ Projects
 	-moz-background-size: 200% auto;
 
 	background-position: -0% 0;
-	background-image: -webkit-gradient(linear, left top, right top, color-stop(50%, rgba(255, 201, 4,0)), color-stop(50%, #FF96BC));
-	background-image: -webkit-linear-gradient(left, rgba(255, 201, 4,0) 50%, #FF96BC 50%);
-	background-image: -o-linear-gradient(left, rgba(255, 201, 4,0) 50%, #FF96BC 50%);
-	background-image: linear-gradient(to right, rgba(255, 201, 4,0) 50%, #FF96BC 50%);
+	background-image: -webkit-gradient(linear, left top, right top, color-stop(50%, rgba(255, 201, 4,0)), color-stop(50%, ##DFE2FE));
+	background-image: -webkit-linear-gradient(left, rgba(255, 201, 4,0) 50%, #DFE2FE 50%);
+	background-image: -o-linear-gradient(left, rgba(255, 201, 4,0) 50%, #DFE2FE 50%);
+	background-image: linear-gradient(to right, rgba(255, 201, 4,0) 50%, #DFE2FE 50%);
 	-o-transition: background-position 0.5s ease-out;
 	transition: background-position 0.5s ease-out;
 	-webkit-transition: background-position 0.5s ease-out;
@@ -274,7 +274,7 @@ Projects
 }
 
 .projects-col-text.listie > .btn-container a.btn.btn-dark.small:hover { 
-	background-color: #FF96BC; 
+	background-color: #DFE2FE; 
 	-webkit-transition: all .4s ease-in-out; 
 	-o-transition: all .4s ease-in-out; 
 	transition: all .4s ease-in-out;
