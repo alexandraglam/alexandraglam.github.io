@@ -40,14 +40,10 @@ p {
 
 p.gray { color: hsla(0, 0%, 40%, .5); }
 
-
-hr { border-top: 1px solid #000; }
-
-	hr.white { 
-		border-top: 1px solid #fff; 
-		opacity: 0.2;
-		margin: 75px 0 25px 0; 
-	}
+hr { 
+	border-top: 1px solid #000;
+	margin-bottom: 0;
+}
 
 span.bold { font-weight: 700; }
 
@@ -286,7 +282,7 @@ Blog Homepage
 ========================================================================== */
 #blog { 
     padding: 75px 0;
-    background-color: #f8f8f8;
+    /*background-color: #f8f8f8;*/
 }
 
 .blog-row { padding-top: 50px; }
@@ -360,7 +356,8 @@ Skillset
 ========================================================================== */
 #skillset { 
 	padding: 75px 0;
-	background-color:#fafafa;
+	/*background-color: #fff;*/
+	/*background-color:#fafafa;*/
 }
 
 .skills-container h3 { padding-bottom: 15px; }
